@@ -18,7 +18,7 @@ body{
 }
 button{
     background-color: transparent;
-    border: 1 px solid white;
+    border: none;
 }
 button:hover{
     border: 2 px solid;
