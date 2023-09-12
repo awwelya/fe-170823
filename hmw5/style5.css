@@ -78,8 +78,7 @@ line-height: normal;
     border-radius: 4px;
     font-size: 16px;
     color: white;
-    padding: 0 8px;
-    
+    padding: 0 8px;  
  }
     button a {
         text-decoration: none;
@@ -100,6 +99,6 @@ line-height: normal;
     align-items: center;
     height: 100px;
     width: 1200px;
-    background-color: #386E41; /* Цвет фона прямоугольника */
-    border: none; /* Граница прямоугольника (опционально) */
+    background-color: #386E41;
+    border: none;
 }
