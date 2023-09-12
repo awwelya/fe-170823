@@ -1,0 +1,104 @@
+*{
+box-sizing: border-box;
+}
+body{
+background-color: #F8FAF8;
+font-family: 'Ubuntu', sans-serif;
+}
+.container-clear{
+    display:block;
+    margin-top:50px;
+    align-items: center;
+    text-align: auto;
+}
+.logo h1 {
+display:block;
+color: #BC436A;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.circular-photo {
+position: absolute;
+top: 115px;
+left: 820px;
+border-radius: 50%;
+}
+nav a {
+margin-right: 40px;
+color: #767;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.menu {
+    margin-left: 680px;
+}
+ .text-block h1{
+color: #333;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width:600px;
+height: 100px;
+margin:0;
+margin-top: 270px;
+padding-left: 120px;
+ }
+ span{
+    color: #BC436A;
+ }
+ .text-block p {
+color: #7A7A7A;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+width: 525px;
+height: 75px;
+margin:0;
+margin-top: 23px;
+padding-left: 120px;
+}
+ h3{
+color: #767676;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ button {
+    background-color: #386E41;
+    width: 110px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    padding: 0 8px;  
+ }
+    button a {
+        text-decoration: none;
+        color: #fff; 
+        font-size: 16px; 
+        margin: 0;
+    }
+ .filter-block-form button {
+    background-color: #BC436A;
+    width: 145px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+}
+.filter-block-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1200px;
+    background-color: #386E41;
+    border: none;
+}
