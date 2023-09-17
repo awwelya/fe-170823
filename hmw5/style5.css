@@ -2,30 +2,44 @@
 box-sizing: border-box;
 }
 body{
+width: auto;
+overflow-x: hidden;
+margin:auto;
 background-color: #F8FAF8;
 font-family: 'Ubuntu', sans-serif;
 }
+
+
 .container-clear{
-    display:block;
+    margin:auto;
+    width:100%;
+    display:inline-block;
     margin-top:50px;
     align-items: center;
     text-align: auto;
 }
 .logo h1 {
-display:block;
+display: inline;
 color: #BC436A;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-left: 80px;
+}
+.logo{
+float:left;
 }
 .circular-photo {
+width: 812px;
+height: 812px;
 position: absolute;
 top: 115px;
 left: 820px;
 border-radius: 50%;
 }
 nav a {
+display: inline-block;
 margin-right: 40px;
 color: #767;
 font-size: 16px;
@@ -33,6 +47,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration: none;
+}
+nav a:hover {
+color: #BC436A;
 }
 .menu {
     margin-left: 680px;
@@ -46,7 +63,7 @@ line-height: normal;
 width:600px;
 height: 100px;
 margin:0;
-margin-top: 270px;
+margin-top: 180px;
 padding-left: 120px;
  }
  span{
@@ -65,11 +82,28 @@ margin-top: 23px;
 padding-left: 120px;
 }
  h3{
+display: inline-block;
+margin-left: 120px;
+margin-top: 200px;
+margin-bottom: 30px;
 color: #767676;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+ }
+ h3 ::before{
+    content: "..//hmw5//img5/Shap.png";
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+ }
+ h3 ::after{
+    content: "..//hmw5//img5/chevron-right.png";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+
  }
  button {
     background-color: #386E41;
@@ -78,7 +112,8 @@ line-height: normal;
     border-radius: 4px;
     font-size: 16px;
     color: white;
-    padding: 0 8px;  
+    padding: 0px 8px; 
+    border: none;
  }
     button a {
         text-decoration: none;
@@ -95,10 +130,32 @@ line-height: normal;
 }
 .filter-block-form {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100px;
     width: 1200px;
     background-color: #386E41;
-    border: none;
+}
+.filter-block-form select {
+border-bottom: solid 2px white;
+border-top: none;
+border-right: none;
+border-left: none;
+background-color: transparent;
+color: white;
+width: 150px;
+margin-right: 40px;
+margin-left: 50px;
+}
+
+.destinations a{
+text-decoration: none;
+color: #767676;
+}
+.destinations{
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.destinations img{
+    margin-left: 60px;
 }
